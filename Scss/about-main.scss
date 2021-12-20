@@ -1,0 +1,108 @@
+//Colors
+$color_dark_green: #3E4001;
+$color_green: #707324;
+$color_cream: #F2EFBB;
+$color_black: black;
+
+footer{top:70px;}
+//HEADER
+.header_frame
+{
+  position:relative;
+  height:210px;
+  background:url(images/green6_edit.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  overflow: hidden;
+  padding-left:156px;
+  padding-top:46px;
+}
+.header_title,
+{
+  position:relative;
+  color:$color_cream;
+  font-size:80px;
+  display:flex;
+  flex-direction:column;
+  line-height: 1.1;
+}
+//INFO PANEL
+.info_panel
+{
+  position:relative;
+  display:flex;
+  top:30px;
+  left:80px;
+  width:90%;
+  height:580px;
+  border-top: 2px dashed $color_dark_green;
+  border-bottom: 2px dashed $color_dark_green;
+}
+.info_image_block
+{
+  position:relative;
+  top:25px;
+  left:100px;
+  display:flex;
+  flex-direction: column;
+}
+.info_image
+{
+  position:relative;
+  width:255px;
+  height:353px;
+}
+.edit
+{
+  top:-180px;
+  left:100px;
+}
+.info_text_block
+{
+  position:relative;
+  top:60px;
+  left:300px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+.info_title
+{
+  width:90%;
+  font-size:35px;
+  color:$color_green;
+}
+.info_text
+{
+  width:604px;
+  font-size:20px;
+}
+//MENU PANEL
+.menu_panel
+{
+  position:relative;
+  top:50px;
+  left:80px;
+  width:90%;
+  height:172px;
+  display:flex;
+  justify-content: space-between;
+  padding-left:156px;
+  padding-right:156px;
+  padding-top:60px;
+  gap:10px;
+  background:url(images/green-vegetables_edit.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.panel_text
+{
+  position:relative;
+  font-size:30px;
+  color:$color_cream;
+  font-weight:400;
+}

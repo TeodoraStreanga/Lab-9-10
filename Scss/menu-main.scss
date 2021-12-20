@@ -1,0 +1,107 @@
+//Colors
+$color_dark_green: #3E4001;
+$color_green: #707324;
+$color_cream: #F2EFBB;
+$color_gray: #BFB6AE;
+$color_white: white;
+$color_black: black;
+
+footer{top:70px;}
+//HEADER
+.header_frame
+{
+  position:relative;
+  height:210px;
+  background:url(images/green6_edit.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  overflow: hidden;
+  padding-left:156px;
+  padding-top:46px;
+}
+.header_title,
+{
+  position:relative;
+  color:$color_cream;
+  font-size:80px;
+  display:flex;
+  flex-direction:column;
+  line-height: 1.1;
+}
+.menu_panel
+{
+  position:relative;
+  display:flex;
+  top:30px;
+  left:80px;
+  width:90%;
+  height:480px;
+  border-top: 2px dashed $color_dark_green;
+  display: flex;
+  flex-direction:column;
+}
+//MENU LIST
+.list_block
+{
+  display: flex;
+}
+.drinks{border-bottom: 2px dashed $color_dark_green;}
+.section_title
+{
+  position:relative;
+  top:20px;
+  left:30px;
+  width:660px;
+  height:64px;
+  color:$color_cream;
+  font-size:40px;
+  padding-left:10px;
+  background: url(images/green-vegetables_edit.jpg);
+  background-position:right;
+}
+.list_block
+{
+  display: flex;
+  gap:30px;
+  position:relative;
+  top:50px;
+  left:30px;
+}
+.list_photo
+{
+  position: relative;
+  width: 309px;
+  height: 314px;
+  overflow: hidden;
+}
+.photo_dish,.photo_drink
+{
+  width:100%;
+  height:100%;
+}
+.list_price
+{
+  position: relative;
+  top: 5px;
+}
+.food_ed{top: -33px;}
+.name{width:156px}
+.vector
+{
+  position: relative;
+  top: 22px;
+  width: 454px;
+  height: 0px;
+  border-top: 2px dashed $color_dark_green;
+}
+li.price
+{
+  display: flex;
+  gap: 10px;
+  padding-top: 30px;
+  font-size: 26px;
+}
